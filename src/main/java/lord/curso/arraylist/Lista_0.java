@@ -2,6 +2,7 @@ package lord.curso.arraylist;
 
 import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Lista_0 {
     public static void main(String[] args) {
@@ -33,5 +34,12 @@ public class Lista_0 {
         aulas.forEach(aulaaa -> {
             System.out.println("aula: " + aulaaa);
         });
+        aulas.add("Avião");
+        System.out.println("-----------------");
+        System.out.println(aulas);
+        System.out.println("-------------------");
+        System.out.println("peripercia: ");
+        Collections.sort(aulas);
+        System.out.println(aulas);
     }
 }
