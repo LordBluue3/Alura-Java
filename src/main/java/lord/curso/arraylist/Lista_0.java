@@ -26,13 +26,13 @@ public class Lista_0 {
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
         System.out.println("Segunda maneira de percorrer uma lista For");
         for(int j = 0; j < aulas.size(); j++){
-            System.out.println("aula: "+j+" - "+aulas.get(j));
+            System.out.println("Aula: "+j+" - "+aulas.get(j));
         }
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
         System.out.println("Terceira maneira de percorrer uma lista método ForEach com expressão lambda");
 
         aulas.forEach(aulaaa -> {
-            System.out.println("aula: " + aulaaa);
+            System.out.println("Aula: " + aulaaa);
         });
         aulas.add("Avião");
         System.out.println("-----------------");
